@@ -75,6 +75,10 @@ APP_ORIGIN=http://localhost:3000
 PORT=3000
 ```
 
+For evaluation, the Supabase connection values are provided separately with the submission package. The `.env` file is intentionally not committed because it contains environment-specific database access details.
+
+Only the Supabase anon key is required for this project. No service-role key or privileged database credential should be committed to the repository.
+
 ## Install
 
 ```bash
